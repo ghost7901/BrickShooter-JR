@@ -1,0 +1,59 @@
+#ifndef _COMMON_H
+#define _COMMON_H
+
+#pragma once
+
+#define ROTATECOUNT 1
+
+#define BTN_NEWPLAY 1
+#define BTN_HIGHSCORES 2
+#define BTN_OPTIONS 3
+#define BTN_HELP1 4
+#define BTN_HELP2 5
+#define BTN_LOAD 6
+#define BTN_SAVE 7
+#define BTN_CLOSE 8
+#define BTN_UNDO 9
+#define BTN_ROTATE1 10
+#define BTN_ROTATE2 11
+#define BTN_OK 12
+#define BTN_HIGHSCORE 13
+#define BTN_ENTERNAMEOK 14
+#define BTN_GAMEOVEROK 15
+#define BTN_SLOTA 16
+#define BTN_SLOTB 17
+#define BTN_SLOTC 18
+
+#define CHECK_MUSIC 21
+#define CHECK_SOUND 22
+#define CHECK_FULLSCREEN 23
+#define CHECK_BOMB 24
+#define CHECK_UNIVERSAL 25
+#define CHECK_LIGHTNING 26
+#define CHECK_COLCHANGE 27
+#define CHECK_ARROWCHANGER 28
+#define CHECK_PROMPT 29
+#define CHECK_CANMOVE 30
+
+#define TEXT_ENTERNAME 50
+
+#define SAFE_DELETE(p) { if(p) { delete (p); (p)=NULL; } }
+
+enum GS_STATE
+{
+	GS_PLAYSHOW,
+	GS_PLAY,
+	GS_HIGHSCORES,
+	GS_OPTIONS,
+	GS_HELP1,
+	GS_HELP2,
+	GS_LOAD,
+	GS_SAVE,
+	GS_UNDO,
+	GS_ROTATE1,
+	GS_ROTATE2,
+	GS_ENTERNAME,
+	GS_GAMEOVER,
+};
+
+#endif

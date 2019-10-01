@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BrickShooter JR", "BrickShooter JR.vcxproj", "{9CA4C230-7E54-440D-9175-ABDA0E5DB20A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CA4C230-7E54-440D-9175-ABDA0E5DB20A}.Debug|x86.ActiveCfg = Debug|Win32
+		{9CA4C230-7E54-440D-9175-ABDA0E5DB20A}.Debug|x86.Build.0 = Debug|Win32
+		{9CA4C230-7E54-440D-9175-ABDA0E5DB20A}.Release|x86.ActiveCfg = Release|Win32
+		{9CA4C230-7E54-440D-9175-ABDA0E5DB20A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62D85475-9ADE-40D0-B3F9-BAA5CB73125A}
+	EndGlobalSection
+EndGlobal
