@@ -1,6 +1,8 @@
 # BrickShooter-JR
 消除方块游戏
+
 =========================Brick Shooter Jr document========================
+
 游戏介绍：
 
 名称：		Brick Shooter Jr (砖块射击)
