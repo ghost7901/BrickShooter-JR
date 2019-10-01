@@ -1,7 +1,7 @@
 # BrickShooter-JR
 消除方块游戏
 
-=========================Brick Shooter Jr document========================
+============================Brick Shooter Jr document=========================
 
 游戏介绍：
 
